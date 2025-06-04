@@ -8,7 +8,7 @@ export default function Projects() {
       description:
         "Una plataforma diseñada para que los docentes registren y gestionen el desarrollo de actividades y los temas abordados durante sus clases.",
       link: "https://github.com/JulianTorres1/desarrollo-de-aprendisaje-sspc",
-      image: "/desarrollo.jpeg",
+      image: "/desarrollo.png",
       color: "bg-[#3b82f6]/10 border border-blue-500",
     },
     {
@@ -16,7 +16,7 @@ export default function Projects() {
       description:
         "Aplicación web para gestionar elecciones académicas de forma segura y transparente, permitiendo a los estudiantes votar por sus representantes en tiempo real.",
       link: "https://github.com/JulianTorres1/Votaciones2025SPC_Backend",
-      image: "/votaciones-preview.png",
+      image: "/votaciones.png",
       color: "bg-[#22d3ee]/10 border border-cyan-400",
     },
     {
