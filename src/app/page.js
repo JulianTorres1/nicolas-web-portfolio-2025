@@ -59,7 +59,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
             >
-              Software Engineer & Full Stack Web Developer
+              Software Engineer & Full Stack Web Developer.
             </motion.h2>
 
             <motion.div
