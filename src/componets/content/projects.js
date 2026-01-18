@@ -42,8 +42,8 @@ export default function Projects() {
   const closeModal = () => setSelectedProject(null);
 
   return (
-    <section className="relative w-full max-w-6xl mx-auto px-4 py-16">
-      <h2 className="text-4xl font-bold mb-10 text-zinc-100">Proyectos</h2>
+    <section className="relative w-full max-w-6xl mx-auto px-4 mb-2">
+      <h2 className="text-4xl font-bold mb-10 text-zinc-100">Desarrollos</h2>
       <div
         className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ${
           selectedProject ? "blur-sm" : ""
@@ -56,6 +56,13 @@ export default function Projects() {
             className={`cursor-pointer rounded-xl p-6 text-zinc-100 backdrop-blur-md hover:scale-[1.08] transition-transform duration-300 shadow-md ${project.color}`}
           >
             <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+            <Image
+              src={project.image}
+              alt={`Image of ${project.title} not found`}
+              width={500}
+              height={300}
+              className="w-full rounded-xl mb-4"
+            />
             <p className="text-sm text-zinc-400">{project.description}</p>
           </div>
         ))}
@@ -66,6 +73,7 @@ export default function Projects() {
           <div className="bg-zinc-900 p-6 rounded-2xl max-w-md w-full shadow-lg relative">
             <button
               onClick={closeModal}
+              ProyectosProyectos
               className="absolute top-3 right-3 text-zinc-400 hover:text-zinc-100 text-2xl"
             >
               &times;
